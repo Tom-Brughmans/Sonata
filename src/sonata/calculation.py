@@ -3,7 +3,7 @@
 import pandas as pd
 
 from plot import create_series
-from typing import Tuple, Dict, Union
+from typing import Tuple, Dict
 
 
 def freq_per_year(
@@ -104,7 +104,7 @@ def year_object_count_df(
     data: pd.DataFrame,
     lower_date: str,
     upper_date: str,
-    object_list: Union[str, int],
+    object_list: str,
     name: str = "Site count",
     index_name: str = "Year",
 ) -> pd.Series:
@@ -115,7 +115,7 @@ def year_object_count_df(
         data (pd.DataFrame): A pandas dataframe.
         lower_date (str): The name of the dataframe column containing start dates.
         upper_date (str): The name of the dataframe column containing end dates.
-        object_list (str): the name of the dataframe column containing the list of f.ex., sites, provenances, etc
+        object_list (str): The name of the dataframe column containing the list of f.ex., sites, provenances, etc
         name (str): The name of the output Series. Can be set up (by default = 'Site count').
         index_name (str): The name of the row of the output Series. Can be set up (by default = 'Year').
 
