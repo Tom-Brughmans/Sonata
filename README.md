@@ -8,8 +8,8 @@
     ├── figs                   # all figures from the paper
     ├── src                    
     │   ├── application        # Jupyter notebooks per calculation and figure
-    │   ├── sonata             # Functions used for data preprocessing and calculations 
-    └── tests                  # Unit tests
+    │   ├── sonata             # functions used for data preprocessing and calculations 
+    └── tests                  # unit tests
 
 
 # Data
