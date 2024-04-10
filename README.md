@@ -4,6 +4,13 @@
 # Repository structure
 
 
+    ├── data                   # cvs and xlsx files with data
+    ├── figs                   # all figures from the paper
+    ├── src                    
+    │   ├── application        # Jupyter notebooks per calculation and figure
+    │   ├── sonata             # Functions used for data preprocessing and calculations 
+    └── tests                  # Unit tests
+
 
 # Data
 
@@ -16,6 +23,7 @@
 | ---------------------------- | ---------------------------------------------------------------------------------------------- |
 |'Amphora_type'	               |   string / Commonly used typologies for Amphora type                                           |
 |'New_type_name'               |   string /                                                                                     |
+|'Amphora_type_merged'         |   string / Typologies for Amphora type that take into account grouped types |
 |'Provenance'               	 |   string / A region where an amphora was produced                                              |
 |'content'	                   |   string / A product carried in an amphora:                                                    |
 |'Site'	                       |   string / A modern name of an archaeological site from which an amphorae assemblage came      |
