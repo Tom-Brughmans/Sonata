@@ -4,7 +4,7 @@
 # Repository structure
 
 
-    ├── data                   # cvs and xlsx files with data
+    ├── data                   # csv and xlsx files with data
     ├── figs                   # all figures from the paper
     ├── src                    
     │   ├── application        # Jupyter notebooks per calculation and figure
