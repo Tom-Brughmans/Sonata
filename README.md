@@ -49,6 +49,23 @@
 
 <br /> 
 
+## Setup
+
+### Prerequisites
+- **Python version**: Make sure you have Python 3.9 installed. 
+
+### Installation
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Tom-Brughmans/Sonata.git
+   cd Sonata
+2. **Set up a virtual environment**:
+    ```bash
+    python3 -m venv myvenv
+    source myvenv/bin/activate
+3. **Install dependencies**: 
+    ```bash
+    pip install -r requirements.txt
 
 # Contributors
 
