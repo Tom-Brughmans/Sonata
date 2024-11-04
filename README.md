@@ -22,28 +22,28 @@
 |**Field Name**                |      **Type / Description**                                                                      |
 | ---------------------------- | ---------------------------------------------------------------------------------------------- |
 |'Amphora_type'	               |   string / Commonly used typologies for Amphora type                                           |
-|'New_type_name'               |   string /                                                                                     |
-|'Amphora_type_merged'         |   string / Typologies for Amphora type that take into account grouped types |
-|'Provenance'               	 |   string / A region where an amphora was produced                                              |
-|'content'	                   |   string / A product carried in an amphora:                                                    |
+|'New_type_name'               |   string / Indicates values in the field ‘Amphora_type’ that are treated as the same type in the analyses|
+|'Amphora_type_merged'         |   string / Typologies for Amphora type that take into account grouped types                    |
+|'Provenance'                  |   string / A region where an amphora was produced                                            |
+|'content'	                   |   string / A product carried in an amphora                                                     |
 |'Site'	                       |   string / A modern name of an archaeological site from which an amphorae assemblage came      |
-|'Site_type'	                 |   string / A site category                                                                     |
-|'Grouped_sites'	             |   string /                                                                                     |
+|'Site_type'	               |   string / A site category                                                                   |
+|'Grouped_sites'	           |   string /   A grouping of the field ‘Site’ per region or ancient settlement                 |
 |'Amphora_type_lower_date' 	   |   float / A production start date of an amphora                                                |
 |'Amphora_type_upper_date'     |   float / A production end date of an amphora                                                  |
 |'Lower_context_date'          |   float / A consumption start date of an amphora                                               |
 |'Upper_context_date'          |   float / A consumption end date of an amphora                                                 |
-|'Frequency'	                 |   float / An amphora frequency                                                                 |
+|'Frequency'	               |   float / An amphora frequency                                                                 |
 |'Pleiades URI'                |   string / Site geographical coordinates according to the Pleiades Atlas                       |
 |'Latitude'                    |   float / Site geographical coordinates in latitude                                            |
 |'Longitude'                   |   float / Site geographical coordinates in longitude                                           |
-|'Tyrrhenian_vs_Adriatic'      |   string /                                                                                     |
+|'Tyrrhenian_vs_Adriatic'      |   string / Indication of whether the site is on the Tyrrhenian, Adriatic or Central regions of Italy |
 |'Publication'	               |   string / Bibliographic reference for assemblage publication                                  |
-|'Period'	                     |   string /                                          |
-|'Notes'	                     |   string /                                                 |
-|'Site_notes'                  |   string /                                                                  |
-|'Amphora_type_notes'          |   string /       |
-|'problems'	                   |   string /                   |
+|'Period'	                     |   string /     Categorical indication of site chronology in Roman historical period          |
+|'Notes'	                     |   string /  General notes on the sites and types          |
+|'Site_notes'                  |   string /  Notes and considerations on the site and its location                              |
+|'Amphora_type_notes'          |   string / Notes and considerations on the amphora type or typical prime use contents designation |
+|'problems'	                   |   string / Considerations of problems related to the type identification and whether they could be merged with other types|
 
 </details>
 
