@@ -77,3 +77,16 @@
 # Funding and acknowledgements
 
 # Cite
+
+```commandline
+@article{komar2025,
+    title = "Consumption Trends, Trading Patterns and Economic Development in Italy Across Centuries: Data Analysis of Roman Amphorae in a Long-Term Perspective",
+    author = "Komar, P., Brughmans, T. & Borisova, E.",
+    year = "2025",
+    publisher = "J Archaeol Method Theory",
+    volume = "32",
+    number = "21",
+    url = "https://doi.org/10.1007/s10816-024-09686-1",
+}
+```
+
